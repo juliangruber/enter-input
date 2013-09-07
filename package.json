@@ -1,0 +1,25 @@
+{
+  "name" : "enter-input",
+  "description" : "A html input element that calls back on <enter>",
+  "version" : "0.0.0",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/juliangruber/enter-input.git"
+  },
+  "homepage": "https://github.com/juliangruber/enter-input",
+  "main" : "index.js",
+  "scripts" : {
+    "test" : "tape test/*.js"
+  },
+  "dependencies" : {},
+  "devDependencies" : {
+    "tape" : "*"
+  },
+  "keywords": ["html","input","browserify"],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
