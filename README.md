@@ -18,9 +18,9 @@ document.body.appendChild(input);
 
 ## API
 
-### EnterInput(fn)
+### var el = EnterInput([el, ]fn)
 
-Create and return a html input element. Whenever someone hits `<enter>` inside
+Create/Take and return a html input element. Whenever someone hits `<enter>` inside
 the input, `fn` is called with the event.
 
 `this` is the actual element, so for example `this.value` has the input's
